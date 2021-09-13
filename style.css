@@ -1,0 +1,172 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: auto;
+}
+.menu-section {
+   background: rgb(7, 7, 43);
+   height: 100px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+
+}
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+.intelegent-logo {
+    margin-left: 150px;
+}
+.logo-div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3A68B8;
+    font-size: 20px;
+   
+}
+.menu-ul {
+    display: flex;
+    margin-right: 220px;
+}
+.menu-li {
+    color: #fff;
+    padding-left: 40px;
+}
+.button-div {
+    margin-right: 150px;
+}
+.button {
+background: #3A68B8;
+width: 112px;
+height: 52px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.button-link {
+    font-size: 16px;
+    color: #fff;
+}
+
+/*INTELEGENT*/
+.section-intelegent {
+    background: rgb(7, 7, 43);
+    margin-top: -20px;
+}
+.intelegent {
+   padding-top: 100px;
+   margin-left: 150px;
+}
+.intelegent-h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3A68B8;
+}
+.intelegent-h1 {
+    font-size: 55px;
+    color: #fff;
+    line-height: 130%;
+}
+.intelegent-h3 {
+        font-size: 18px;
+        color: #fff;
+        margin-top: -20px;
+}
+.intelegent-div {
+    margin-left: 150px;
+}
+.intelegent-button {
+    background: #3A68B8;
+    width: 171px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+}
+.intelegent-button1 {
+    background: #3A68B8;
+    width: 171px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+}
+.intelegent-button_p {
+    color: #fff;
+    font-size: 20px;
+}
+.intelegent-button_e{
+    color: #fff;
+    font-size: 20px;
+   
+}
+.img {
+    position: absolute;
+    margin-left: 850px;
+    padding-top: 100px;
+}
+.intelegent-img {
+    width: 450px;
+}
+.intelegent-bo {
+    align-items: center;
+}
+.intelegent-brend_div {
+    margin-top: 150px;
+}
+.intelegent-brend {
+    display: flex;
+    justify-content: center;
+    margin-right: -40px;
+}
+.intelegent-brend_li {
+    padding-right: 40px;
+}
+/*END INTELEGENT*/
+
+/*APPLY*/
+.apply-section {
+    background: rgb(5, 5, 36);
+    margin-top: -18px;
+    height: 600px;
+}
+.apply-title {
+    margin-left: 150px;
+}
+.img-apply {
+    padding-top: 150px;
+}
+.apply-img {
+    width: 450px;
+    position: absolute;
+}
+.apply-h2 {
+    font-size: 40px;
+    color: #fff;
+}
+.apply-text {
+    font-size: 16px;
+    color: #fff;
+    opacity: 70%;
+}
+.apply {
+    margin-left: 530px;
+    margin-top: 120px;
+}
+.apply-button {
+    background: #3A68B8;
+    width: 112px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+    .apply-button-link {
+        font-size: 16px;
+        color: #fff;
+    }
+/*END APPLY*/

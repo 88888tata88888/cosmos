@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     margin: auto;
+    
 }
 .menu-section {
    background: rgb(7, 7, 43);
@@ -13,7 +14,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 18px;
-
 }
 .link {
 	text-decoration: none;
@@ -28,7 +28,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3A68B8;
     font-size: 20px;
-   
 }
 .menu-ul {
     display: flex;
@@ -48,6 +47,9 @@ height: 52px;
 border-radius: 5px;
 border: none;
 cursor: pointer;
+}
+.button:hover {
+    background: #234786;
 }
 .button-link {
     font-size: 16px;
@@ -88,6 +90,10 @@ cursor: pointer;
     height: 57px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+.intelegent-button:hover {
+    background: #234786;
 }
 .intelegent-button1 {
     background: #3A68B8;
@@ -96,6 +102,10 @@ cursor: pointer;
     border-radius: 5px;
     border: none;
     margin-left: 30px;
+    cursor: pointer;
+}
+.intelegent-button1:hover {
+    background: #234786;
 }
 .intelegent-button_p {
     color: #fff;
@@ -104,7 +114,6 @@ cursor: pointer;
 .intelegent-button_e{
     color: #fff;
     font-size: 20px;
-   
 }
 .img {
     position: absolute;
@@ -124,6 +133,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     margin-right: -40px;
+    padding-bottom: 80px;
 }
 .intelegent-brend_li {
     padding-right: 40px;
@@ -134,14 +144,14 @@ cursor: pointer;
 .apply-section {
     background: rgb(5, 5, 36);
     margin-top: -18px;
-    height: 1050px;
+    height: 680px;
     width: 100%;
 }
 .apply-title {
     margin-left: 150px;
 }
 .img-apply {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .apply-img {
     width: 450px;
@@ -168,23 +178,34 @@ cursor: pointer;
     border: none;
     cursor: pointer;
     }
-    .apply-button-link {
+.apply-button:hover {
+    background: #234786;
+}
+ .apply-button-link {
         font-size: 16px;
         color: #fff;
     }
 /*END APPLY*/
 
 /*BLOCK*/
-.block-div {
-  margin-top: 120px;
-  margin-right: 120px;
+.block{
+  padding-top: 80px;
+  background: rgb(5, 5, 36);
 }
 .block-ul {
     display: flex;
+    margin-left: 50px;
+    margin-right: 60px;
+    padding-bottom: 80px;
 }
 .block-li {
-  margin-right: 50px;
-  
+  margin-right: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: rgba(255, 255, 255, 0.048);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .block-h3 {
     color: #fff;

@@ -24,6 +24,10 @@ body {
 .intelegent-logo {
     margin-left: 150px;
 }
+.logo-text {
+    font-size: 22px;
+    color: #3A68B8;
+}
 .logo-div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3A68B8;
